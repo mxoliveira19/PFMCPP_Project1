@@ -80,12 +80,12 @@ computer.consumeEnergy();
 
 //  4) 
 //  Noun: car
-//  action 1: the car running
-car.running();
+//  action 1: the car run
+car.run();
 //  action 2: the car consumes fuel 
 car.consumeFuel();
-//  action 3: the car close the door
-car.closeDoor();
+//  action 3: the car consume Electric Energy
+car.consumeElectricEnergy();
 
 //  5)
 //  Noun: bird
@@ -115,32 +115,31 @@ cloud.throwWater();
 cloud.fillWater();
 
 //  8)
-//  Noun: musician 
-//  action 1: the musician play 
-musician.play();
-
-//  action 2: the musician dances
-musician.dance();
-//  action 3: the musician travels
-musician.travel();
+//  Noun: dog
+//  action 1: the dog fight
+dog.fight();
+//  action 2: the dog sleep
+dog.sleep();
+//  action 3: the dog run
+dog.run();
 
 //  9)
-//  Noun: hero
-//  action 1: the hero fights
-hero.flight();
-//  action 2: the hero runs
-hero.run();
-//  action 3: the hero eats
-hero.eat();
+//  Noun: house
+//  action 1: the house control the temperature
+house.temperature();
+//  action 2: the house control humidity
+house.humidity();
+//  action 3: the house send alert
+house.alert();
 
 //  10)
-//  Noun: athlete
-//  action 1: the athlete plays
-athlete.play();
-//  action 2: the athlete changes clothes
-athlete.changeCloth();
-//  action 3: the athlete rests
-athlete.rest();
+//  Noun: cooker
+//  action 1: the cooker works
+cooker.work();
+//  action 2: the cooker eats
+cooker.eat();
+//  action 3: the cooker rests
+cooker.rest();
 
 #endif
 
